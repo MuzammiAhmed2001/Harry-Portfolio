@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- main container -->
+    <div class="container-fluid">
+        <div class="row">
+            <header class="head">
+                <div class="row">
+                    <div class="overlay">
+
+                        <!-- top header start -->
+                        <div class="row">
+                            <div class="top-head">
+                                <div class="mail-call">
+                                    <div class="mail">
+                                        <i class="fa-regular fa-envelope"></i>
+                                        <a href="" class="info-para">info@harry.com</a>
+                                    </div>
+                                    <div class="call">
+                                        <i class="fa-solid fa-phone-volume"></i>
+                                        <a href="" class="number">123456789</a>
+                                    </div>
+                                </div>
+                                <div class="social-icons">
+                                    <div class="face">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </div>
+                                    <div class="twiter">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </div>
+                                    <div class="linkdin">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </div>
+                                    <div class="dropdown">
+                                        <button class="btn  dropdown-toggle culor" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            English
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item d-i" href="#">Turkey</a></li>
+                                            <li><a class="dropdown-item d-i" href="#">Spench</a></li>
+                                            <li><a class="dropdown-item d-i" href="#">French</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- top header end -->
+
+
+                        <nav class="navbar navbar-expand-lg bg-body-tertiary navv">
+                            <div class="container">
+                                <a class="navbar-brand" href="#"><img src="img/logo2.svg" alt=""></a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <div class="n-w">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navv-ul ul1">
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link  navv-ul" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Home
+                                                    <i class="bi bi-chevron-down"></i>
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item d-a" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item d-a" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item d-a" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link navv-ul" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Elements
+                                                    <i class="bi bi-chevron-down"></i>
+                                                </a>
+                                                <ul class="dropdown-menu dropmenu">
+                                                    <li><a class="dropdown-item d-a" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item d-a" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item d-a" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link navv-ul" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Portfolio
+                                                    <i class="bi bi-chevron-down"></i>
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item d-a" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item d-a" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item d-a" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link navv-ul" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Blog
+                                                    <i class="bi bi-chevron-down"></i>
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item d-a" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item d-a" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item d-a" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link  navv-ul" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Pages
+                                                    <i class="bi bi-chevron-down"></i>
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item d-a" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item d-a" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item d-a" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link navv-ul" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Contact
+                                                    <i class="bi bi-chevron-down"></i>
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item d-a" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item d-a" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item d-a" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <form class="d-flex s-section" role="search">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                        <button class="btn btn-outline-success" type="submit">Contact</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </nav>
+
+                        <!-- seconnd section start -->
+
+                        <div class="container">
+                            <div class="second-sec">
+                                <div class="intro">
+                                    <h3 class="intro-h">
+                                        Hello, I’m Justin Case
+                                    </h3>
+                                    <p class="intro-para1">How plan
+                                        form the party.</p>
+                                    <p class="intro-para2">Become a part of our team, sign up for updates.</p>
+                                    <button class="intro-btn">About Our Strategy ></button>
+                                </div>
+                                <div class="intro-img">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- seconnd section end -->
+
+                        <!-- section join over movment start -->
+                        <div class="container">
+                            <div class="main-join">
+                                <div class="join-sub">
+                                    <p class="join-para1">Join our Movement!</p>
+                                    <p class="join-para2">Our promise to make america great again!</p>
+                                    <div class="join-inp">
+                                        <input class="join-mail" type="email" placeholder="E-mail*">
+                                        <input class="join-zip" type="text" placeholder="Zip code*">
+                                    </div>
+                                    <button class="join-btn">Request</button>
+                                </div>
+                                <div class="j-v">
+                                    <div class="join-ved">
+                                        <div class="overlay-ved">
+                                            <div class="join-watch">
+                                                <i class="fa-solid fa-play"></i>
+                                                <p class="watch-p">WATCH VEDIO</p>
+                                                <p class="special1">Special Message</p>
+                                                <p class="special2">Democracy arises out of the notion that those.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="join-win">
+                                        <div class="join-cup">
+                                            <div class="trophy">
+                                                <i class="fa-solid fa-trophy"></i>
+                                                <p class="trop-count1">+223K</p>
+                                                <p class="trop-count2">2023 Win Vote</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </header>
+        </div>
+        <!-- section join over movment end -->
+
+        <!-- section 2 start -->
+        <div class="container">
+            <div class="section-2">
+                <div class="main-heading">
+                    <p class="main-para">A Canada that is healthier and safer, greener and more
+                        competitive.</p>
+                    <button class="main-btn">Join Our Movement</button>
+                </div>
+                <div class="section-card">
+                    <div class="card1">
+                        <img src="img/icon-1.png" alt="">
+                        <p>Main Mission <br>
+                            <span class="card-heading">Core Principles</span> <br>
+                            We are committed to restoring honesty, integrity, government. Explore our
+                            principles.
+                        </p>
+                        <button class="card-btn">Learn more></button>
+                    </div>
+                    <div class="card1 pos-card">
+                        <img src="img/icon-2-1.png" alt="">
+                        <p>What We Do<br>
+                            <span class="card-heading">Political Program</span> <br>
+                            We are committed to restoring honesty, integrity, government. Explore our
+                            principles.
+                        </p>
+                        <button class="card-btn">Learn more></button>
+                    </div>
+                    <div class="card1">
+                        <img src="img/icon-1.png" alt="">
+                        <p>Our Mission<br>
+                            <span class="card-heading">Our Members</span> <br>
+                            We are committed to restoring honesty, integrity, government. Explore our
+                            principles.
+                        </p>
+                        <button class="card-btn">Learn more></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section 2 end -->
+
+        <!-- section 3 start -->
+        <div class="row">
+            <div class="section-3">
+
+                <div class="container">
+                    <div class="section3-heading">
+                        <p class="sec3-para1">Vision for the city</p>
+                        <p class="sec3-para2">Our various types of services especially for you</p>
+                    </div>
+                    <div class="section-content">
+                        <div class="section3-btn">
+
+                            <button class="sec3-btn active">
+                                <i class="fa-brands fa-envira"></i>Envoirment
+                            </button>
+                            <button class="sec3-btn">
+                                <i class="fa-brands fa-envira"></i>Envoirment
+                            </button>
+                            <button class="sec3-btn">
+                                <i class="fa-brands fa-envira"></i>Envoirment
+                            </button>
+                            <button class="sec3-btn">
+                                <i class="fa-brands fa-envira"></i>Envoirment
+                            </button>
+                            <button class="sec3-btn">
+                                <i class="fa-brands fa-envira"></i>Envoirment
+                            </button>
+                        </div>
+                        <div class="sec3-image">
+                            <div class="sec3-img"></div>
+                            <p class="img-para1">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. consectetur numquam magnam, sed perspiciatis mollitia nesciunt
+                                amet, consequuntur error culpa nobis dolore asperiores eum non quasi
+                                duis cursus, mi quis viverra ornare, eros dolor interdum nulla, commodo
+                                diam libero.</p>
+                            <p class="img-para2"><i class="fa-solid fa-circle-check"></i> 1x Lorem ipsum
+                                dolor sit</p>
+                            <p class="img-para2"><i class="fa-solid fa-circle-check"></i> Eiusmod
+                                incididunt ut labore et</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="live-city">
+                        <div class="live-count">
+                            <p class="live-para1">623K <br> <span class="live-span">People lived in our
+                                    city </span> </p>
+                        </div>
+                        <div class="live-count">
+                            <p class="live-para1">1820+<br> <span class="live-span">Square kilometres region
+                                    covers</span></p>
+                        </div>
+                        <div class="live-count">
+                            <p class="live-para1 bor">24%<br> <span class="live-span">Private & domestic garden
+                                    land</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section 3 end -->
+        <!-- section 3  copy start -->
+        <!-- <div class="row">
+            <div class="section-3">
+
+                <div class="container">
+                    <div class="section3-heading">
+                        <p class="sec3-para1">Vision for the city</p>
+                        <p class="sec3-para2">Our various types of services especially for you</p>
+                    </div>
+                    <div class="section-content">
+                        <div class="section3-btn">
+                            <div class="tab">
+                            <button class="tablinks  sec3-btn active" onclick="openCity(event, 'London')">
+                                <i class="fa-brands fa-envira"></i>Envoirment
+                            </button>
+                            <button class="tablinks sec3-btn" onclick="openCity(event, 'Paris')">
+                                <i class="fa-brands fa-envira"></i>Envoirment
+                            </button>
+                            <button class="tablinks sec3-btn" onclick="openCity(event, 'Tokyo')">
+                                <i class="fa-brands fa-envira"></i>Envoirment
+                            </button>
+                            <button class="sec3-btn">
+                                <i class="fa-brands fa-envira"></i>Envoirment
+                            </button>
+                            <button class="sec3-btn">
+                                <i class="fa-brands fa-envira"></i>Envoirment
+                            </button>
+                        </div>
+                        </div>
+                        <div id="London" class="sec3-image tabcontent">
+                            <div class="sec3-img"></div>
+                            <p class="img-para1">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. consectetur numquam magnam, sed perspiciatis mollitia nesciunt
+                                amet, consequuntur error culpa nobis dolore asperiores eum non quasi
+                                duis cursus, mi quis viverra ornare, eros dolor interdum nulla, commodo
+                                diam libero.</p>
+                            <p class="img-para2"><i class="fa-solid fa-circle-check"></i> 1x Lorem ipsum
+                                dolor sit</p>
+                            <p class="img-para2"><i class="fa-solid fa-circle-check"></i> Eiusmod
+                                incididunt ut labore et</p>
+                        </div>
+                        <div id="Paris" class="sec3-image tabcontent">
+                            <div class="sec3-img"></div>
+                            <p class="img-para1">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. consectetur numquam magnam, sed perspiciatis mollitia nesciunt
+                                amet, consequuntur error culpa nobis dolore asperiores eum non quasi
+                                duis cursus, mi quis viverra ornare, eros dolor interdum nulla, commodo
+                                diam libero.</p>
+                            <p class="img-para2"><i class="fa-solid fa-circle-check"></i> 1x Lorem ipsum
+                                dolor sit</p>
+                            <p class="img-para2"><i class="fa-solid fa-circle-check"></i> Eiusmod
+                                incididunt ut labore et</p>
+                        </div>
+                        <div id="Tokyo" class="sec3-image tabcontent">
+                            <div class="sec3-img"></div>
+                            <p class="img-para1">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. consectetur numquam magnam, sed perspiciatis mollitia nesciunt
+                                amet, consequuntur error culpa nobis dolore asperiores eum non quasi
+                                duis cursus, mi quis viverra ornare, eros dolor interdum nulla, commodo
+                                diam libero.</p>
+                            <p class="img-para2"><i class="fa-solid fa-circle-check"></i> 1x Lorem ipsum
+                                dolor sit</p>
+                            <p class="img-para2"><i class="fa-solid fa-circle-check"></i> Eiusmod
+                                incididunt ut labore et</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="live-city">
+                        <div class="live-count">
+                            <p class="live-para1">623K <br> <span class="live-span">People lived in our
+                                    city </span> </p>
+                        </div>
+                        <div class="live-count">
+                            <p class="live-para1">1820+<br> <span class="live-span">Square kilometres region
+                                    covers</span></p>
+                        </div>
+                        <div class="live-count">
+                            <p class="live-para1 bor">24%<br> <span class="live-span">Private & domestic garden
+                                    land</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- section 3 end -->
+
+        <!-- section 4 start -->
+        <div class="container">
+            <div class="section4">
+                <div class="sec4-headings">
+                    <p class="sec4-h1">Campaign events</p>
+                    <p class="sec4-h2">Upcoming city events</p>
+                </div>
+
+                <div class="container">
+                    <div class="section4-card">
+                        <div class="sec4-card">
+                            <div class="sec4-img"></div>
+                            <div class="sec4-cont">
+                                <div class="sec4-cont1">
+                                    <p class="sec4-para1">Conference</p>
+                                    <p class="sec4-para2"><i class="fa-regular fa-clock"></i>January 29, 2023</p>
+                                </div>
+                                <p class="sec4-cont2">Rising stars obscure heirs reality <br>
+                                    <span class="sec4-span">42 nostrand ave, brooklyn. NY</span>
+                                </p>
+                            </div>
+                            <button class="sec4-btn">Book a Seat></button>
+                        </div>
+                        <div class="sec4-card">
+                            <div class="sec4-img"></div>
+                            <div class="sec4-cont">
+                                <div class="sec4-cont1">
+                                    <p class="sec4-para1">Conference</p>
+                                    <p class="sec4-para2"><i class="fa-regular fa-clock"></i>January 29, 2023</p>
+                                </div>
+                                <p class="sec4-cont2">Rising stars obscure heirs reality <br>
+                                    <span class="sec4-span">42 nostrand ave, brooklyn. NY</span>
+                                </p>
+                            </div>
+                            <button class="sec4-btn">Book a Seat></button>
+                        </div>
+                        <div class="sec4-card">
+                            <div class="sec4-img"></div>
+                            <div class="sec4-cont">
+                                <div class="sec4-cont1">
+                                    <p class="sec4-para1">Conference</p>
+                                    <p class="sec4-para2"><i class="fa-regular fa-clock"></i>January 29, 2023</p>
+                                </div>
+                                <p class="sec4-cont2">Rising stars obscure heirs reality <br>
+                                    <span class="sec4-span">42 nostrand ave, brooklyn. NY</span>
+                                </p>
+                            </div>
+                            <button class="sec4-btn">Book a Seat></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section 4 end -->
+
+        <!-- section 5 start -->
+        <div class="row">
+            <div class="section5-main">
+                <div class="row">
+                    <div class="overlay-sec5">
+                        <p class="sec5-para1">04 Jan 2016</p>
+                        <p class="sec5-para2">The Irony of information : <br> Ending Solution</p>
+                        <p class="sec5-para3">Lorem ipsum dolor sit amit,consecuture adipicing elit.Ut elite <br> tellus
+                            lectus
+                            nec ullamcorpor mattis</p>
+                        <button class="sec5-btn">Continue reading></button>
+                        <div class="sec5-years">
+                            <div class="sec5-year1">2016</div>
+                            <div class="sec5-year1">2017</div>
+                            <div class="sec5-year1">2018</div>
+                            <div class="sec5-year1">2019</div>
+                            <div class="sec5-year1">2020</div>
+                            <div class="sec5-year1">2021</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section 5 end -->
+
+        <!-- section 6 start -->
+        <div class="container">
+            <div class="section6">
+                <div class="sec4-headings sec6">
+                    <p class="sec4-h1">Our Team Member</p>
+                    <p class="sec4-h2">Our expert volunteer</p>
+                </div>
+
+                <div class="sec6-imges">
+                    <div class="sec6-card">
+                        <div class="sec6-img1">
+                            <div class="sec6-overlay">
+                                <i class="fa-regular fa-comments"></i>
+                                <p class="sec6-para1">Contact With Me</p>
+                                <p class="sec6-no">123456789</p>
+                                <p class="sec6-para1">harry@mail.com</p>
+                                <div class="sec6-social">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="i-name">Josan Response <br> <span class="name-span">Tp Party Leader</span> </p>
+                    </div>
+                    <div class="sec6-card">
+                        <div class="sec6-img2">
+                            <div class="sec6-overlay">
+                                <i class="fa-regular fa-comments"></i>
+                                <p class="sec6-para1">Contact With Me</p>
+                                <p class="sec6-no">123456789</p>
+                                <p class="sec6-para1">harry@mail.com</p>
+                                <div class="sec6-social">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="i-name">Josan Response <br> <span class="name-span">Tp Party Leader</span> </p>
+                    </div>
+                    <div class="sec6-card">
+                        <div class="sec6-img3">
+                            <div class="sec6-overlay">
+                                <i class="fa-regular fa-comments"></i>
+                                <p class="sec6-para1">Contact With Me</p>
+                                <p class="sec6-no">123456789</p>
+                                <p class="sec6-para1">harry@mail.com</p>
+                                <div class="sec6-social">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="i-name">Josan Response <br> <span class="name-span">Tp Party Leader</span> </p>
+                    </div>
+                    <div class="sec6-card">
+                        <div class="sec6-img4">
+                            <div class="sec6-overlay">
+                                <i class="fa-regular fa-comments"></i>
+                                <p class="sec6-para1">Contact With Me</p>
+                                <p class="sec6-no">123456789</p>
+                                <p class="sec6-para1">harry@mail.com</p>
+                                <div class="sec6-social">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="i-name">Josan Response <br> <span class="name-span">Tp Party Leader</span> </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- section 6 end -->
+
+        <!-- section 7 start -->
+        <div class="container">
+            <div class="section7">
+                <div class="sec7-para">
+                    <p class="sec7-para1">Get involved with contribution, <br><span> make yourself proud! </span></p>
+                    <p class="sec7-para2">Donate today to support lower taxes for middle class</p>
+                </div>
+
+                <div class="sec7-btns">
+                    <button class="sec7-btn">$100.00</button>
+                    <button class="sec7-btn">$100.00</button>
+                    <button class="sec7-btn">$100.00</button>
+                    <button class="sec7-btn">$100.00</button>
+                    <button class="sec7-btn">$100.00</button>
+                    <button class="sec7-btn">$100.00</button>
+                    <button class="sec7-btn">$100.00</button>
+                    <button class="sec7-btn active">$100.00</button>
+                </div>
+            </div>
+        </div>
+        <!-- section 7 end -->
+
+        <!-- section 8 start -->
+        <div class="container">
+            <div class="section8">
+                <div class="sec4-headings sec6">
+                    <p class="sec4-h1">Our latest news</p>
+                    <p class="sec4-h2">Latest news & articles
+                    </p>
+                </div>
+
+                <div class="sec8-cards">
+                    <div class="sec8-card1">
+                        <div class="c1-cont">
+                            <div class="s8-c1-img"></div>
+                        </div>
+                        <div class="sec8-contant">
+                            <div class="sec8-para1">
+                                <p class="para1-p1">Personel</p>
+                                <p class="para1-p2">November 21, 2022</p>
+                            </div>
+                            <p class="sec8-para2">Social Media Postings <br> Lead to Defense.</p>
+                            <p class="sec8-para3">One morning, when Gregor <br> Samsa woke from</p>
+                            <div class="sec8-para4">
+                                <div class="sec8-p4-con1">
+                                    <div class="sec8-p4-img"></div>
+                                    <p class="para4-p1">By harry</p>
+                                </div>
+                                <p class="para4-p1 bor">1st commint</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="c1-cont c2">
+                        <div class="s8-c1-img c2 ">
+                            <div class="c2-overlay">
+                                <div class="sec8-para1 ">
+
+                                    <p class="para1-p1 c2-p1 ">Personel</p>
+                                    <p class="para1-p2 c2-p2">November 21, 2022</p>
+                                </div>
+                                <p class="sec8-para2 c2-p2">Social Media Postings <br> Lead to Defense.</p>
+                                <p class="sec8-para3 c2-p2">One morning, when Gregor <br> Samsa woke from</p>
+                                <div class="sec8-para4 c2-p3">
+                                    <div class="sec8-p4-con1 ">
+                                        <div class="sec8-p4-img"></div>
+                                        <p class="para4-p1 c2-p3">By harry</p>
+                                    </div>
+                                    <p class="para4-p1 bor c2-p3">1st commint</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section8-card3">
+                        <div class="sec8-contant c3">
+                            <div class="sec8-para1">
+                                <p class="para1-p1">Personel</p>
+                                <p class="para1-p2">November 21, 2022</p>
+                            </div>
+                            <p class="sec8-para2">Social Media Postings <br> Lead to Defense.</p>
+                            <div class="sec8-para4 car3">
+                                <div class="sec8-p4-con1">
+                                    <div class="sec8-p4-img"></div>
+                                    <p class="para4-p1 bor">By harry</p>
+                                </div>
+                                <p class="para4-p1 bor">1st commint</p>
+                            </div>
+                        </div>
+                        <div class="sec8-contant c3">
+                            <div class="sec8-para1">
+                                <p class="para1-p1">Personel</p>
+                                <p class="para1-p2">November 21, 2022</p>
+                            </div>
+                            <p class="sec8-para2">Social Media Postings <br> Lead to Defense.</p>
+                            <div class="sec8-para4 car3">
+                                <div class="sec8-p4-con1">
+                                    <div class="sec8-p4-img"></div>
+                                    <p class="para4-p1 bor">By harry</p>
+                                </div>
+                                <p class="para4-p1 bor">1st commint</p>
+                            </div>
+                        </div>
+                        <div class="sec8-contant c3">
+                            <div class="sec8-para1">
+                                <p class="para1-p1">Personel</p>
+                                <p class="para1-p2">November 21, 2022</p>
+                            </div>
+                            <p class="sec8-para2">Social Media Postings <br> Lead to Defense.</p>
+                            <div class="sec8-para4 car3">
+                                <div class="sec8-p4-con1">
+                                    <div class="sec8-p4-img"></div>
+                                    <p class="para4-p1 bor">By harry</p>
+                                </div>
+                                <p class="para4-p1 bor">1st commint</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- section 8 end -->
+
+
+        <!-- section 9 start -->
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide slide11">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active acti1">
+                        <i class="fa-brands fa-twitter"></i>
+                        <p>The digital world is in your hands with deon, a theme we designed for all modern <br>
+                            #technology and #software company…<br>
+                            <span class="slide-para1"> Shahnewaz,</span>
+                            <span class="slide-para2"> President
+                                20 jan 2022</span>
+                        </p>
+                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    </div>
+                    <div class="carousel-item acti1">
+                        <i class="fa-brands fa-twitter"></i>
+                        <p>The digital world is in your hands with deon, a theme we designed for all modern <br>
+                            #technology and #software company…<br>
+                            <span class="slide-para1"> Shahnewaz,</span>
+                            <span class="slide-para2"> President
+                                20 jan 2022</span>
+                        </p>
+                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    </div>
+                    <div class="carousel-item acti1">
+                        <i class="fa-brands fa-twitter"></i>
+                        <p>The digital world is in your hands with deon, a theme we designed for all modern <br>
+                            #technology and #software company…<br>
+                            <span class="slide-para1"> Shahnewaz,</span>
+                            <span class="slide-para2"> President
+                                20 jan 2022</span>
+                        </p>
+                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+            </div>
+        </div>
+        <!-- section 9 end -->
+
+        <!-- section 10 start -->
+        <div class="row">
+            <div class="sec-footer">
+                <div class="container">
+                    <div class="footer-sub">
+                        <div class="sub-para">
+                            <p class="sub-para1">Subscribe our newsletter</p>
+                            <p class="sub-para2">Get update every week</p>
+                        </div>
+                        <div class="sub-mail">
+                            <input class="sub-inp" type="email" placeholder="Enter Your Email">
+                            <button class="sub-btn">Subscribe Now</button>
+                        </div>
+                    </div>
+
+                    <div class="footer2nd">
+                        <div class="footer-logo">
+                            <div class="footer-img"></div>
+                            <p class="footer-para1">Lorem ipsum is simply dolor sit <br>ametcn sectetur adipiscing elit.
+                                <br> Phasellus vehic sagittis
+                                euismod.
+                            </p>
+                            <div class="footer-social">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                        <div class="footer-contact">
+                            <h3 class="con-heading">Contact us</h3>
+                            <div class="con-list">
+                                <i class="fa-regular fa-envelope"></i>
+                                <p>Email us: <br>
+                                    <span class="list-span"> Contact@harry.com</span>
+                                </p>
+                            </div>
+                            <div class="con-list">
+                                <i class="fa-regular fa-envelope"></i>
+                                <p>Call us: <br>
+                                    <span class="list-span"> 987654321</span>
+                                </p>
+                            </div>
+                            <div class="con-list">
+                                <i class="fa-regular fa-envelope"></i>
+                                <p>Address: <br>
+                                    <span class="list-span"> 4200, lorem street, <br>
+                                        chicago, IL, 55</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer-quik">
+                            <h3 class="con-heading">Qulick Link</h3>
+                            <ul class="footer-ul">
+                                <li>Home</li>
+                                <li>About</li>
+                                <li>Services</li>
+                                <li>Contact</li>
+                                <li>Term & conditions</li>
+                            </ul>
+                        </div>
+                        <div class="footer-gallery">
+                            <h3 class="con-heading">Photos Gallery</h3>
+                            <div class="footer-photos">
+                                <div class="photos1">
+                                    <div class="photo1"></div>
+                                    <div class="photo1"></div>
+                                    <div class="photo1"></div>
+                                </div>
+                                <div class="photos2">
+                                    <div class="photo1"></div>
+                                    <div class="photo1"></div>
+                                    <div class="photo1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+        <!-- section 10 end -->
+
+
+
+        <!-- <div class="tab">
+            <button class="tablinks sec3-btn active" onclick="openCity(event, 'London')">London</button>
+            <button class="tablinks sec3-btn" onclick="openCity(event, 'Paris')">Paris</button>
+            <button class="tablinks sec3-btn" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+        </div>
+
+        <div id="London" class="tabcontent">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+            London
+            London is the capital city of England.
+            <div class="sec3-image">
+                <h3> <div class="sec3-img"></div></h3>
+                <p> <p class="img-para1">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. consectetur numquam magnam, sed perspiciatis mollitia nesciunt
+                    amet, consequuntur error culpa nobis dolore asperiores eum non quasi
+                    duis cursus, mi quis viverra ornare, eros dolor interdum nulla, commodo
+                    diam libero.</p>
+                <p class="img-para2"><i class="fa-solid fa-circle-check"></i> 1x Lorem ipsum
+                    dolor sit</p>
+                <p class="img-para2"><i class="fa-solid fa-circle-check"></i> Eiusmod
+                    incididunt ut labore et</p></p>
+            </div>
+        </div>
+
+        <div id="Paris" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+            <div class="sec3-image">
+                <div class="sec3-img"></div>
+                <p class="img-para1">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. consectetur numquam magnam, sed perspiciatis mollitia nesciunt
+                    amet, consequuntur error culpa nobis dolore asperiores eum non quasi
+                    duis cursus, mi quis viverra ornare, eros dolor interdum nulla, commodo
+                    diam libero.</p>
+                <p class="img-para2"><i class="fa-solid fa-circle-check"></i> 1x Lorem ipsum
+                    dolor sit</p>
+                <p class="img-para2"><i class="fa-solid fa-circle-check"></i> Eiusmod
+                    incididunt ut labore et</p>
+            </div>
+        </div>
+
+        <div id="Tokyo" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+            <div class="sec3-image">
+                <div class="sec3-img"></div>
+                <p class="img-para1">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. consectetur numquam magnam, sed perspiciatis mollitia nesciunt
+                    amet, consequuntur error culpa nobis dolore asperiores eum non quasi
+                    duis cursus, mi quis viverra ornare, eros dolor interdum nulla, commodo
+                    diam libero.</p>
+                <p class="img-para2"><i class="fa-solid fa-circle-check"></i> 1x Lorem ipsum
+                    dolor sit</p>
+                <p class="img-para2"><i class="fa-solid fa-circle-check"></i> Eiusmod
+                    incididunt ut labore et</p>
+            </div>
+        </div> -->
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+        integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+</body>
+
+</html>
