@@ -1278,6 +1278,7 @@
     border-radius: 5px;
     font-size: 15px;
     background-color: #ffffff;
+    margin: 3px;
 }
 
 .sec7-btn:hover {
@@ -2250,14 +2251,17 @@
         padding: 20px;
         padding-top: 50px;
     }
+
     .sub-mail {
         display: grid;
         gap: 10px;
     }
+
     .sub-inp {
         width: 100%;
         border-radius: 10px;
     }
+
     .footer-sub {}
 
     .footer2nd {
@@ -2320,6 +2324,10 @@
         height: auto;
         padding-top: 30px;
         padding: 20px;
+    }
+
+    .join-mail {
+        margin-bottom: 10px;
     }
 
     .join-cup {
@@ -2406,6 +2414,14 @@
     }
 
     .overlay-sec5 {
+        height: auto;
+    }
+
+    .slide11 {
+        height: 350px;
+    }
+
+    .acti1 {
         height: auto;
     }
 
